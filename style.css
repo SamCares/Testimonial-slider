@@ -27,6 +27,20 @@ body {
   background-size: 40%;
   padding: 3rem;
   margin: 2rem auto 1rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 0%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .picture {
@@ -91,6 +105,7 @@ span {
 @media screen and (max-width: 688px) {
   .container {
     width: 450px;
+    height: auto;
   }
 
   .testimonial {
@@ -127,5 +142,6 @@ span {
 
   .name {
     display: grid;
+    font-size: 15px;
   }
 }
