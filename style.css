@@ -16,14 +16,14 @@ body {
   margin: 0 auto;
   max-width: 100%;
   min-height: 400%;
+  position: relative;
 }
 
 .testimonial {
-  /* position: absolute; */
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background: white url(./images/pattern-curve.svg) no-repeat left bottom;
+  background: url(./images/pattern-curve.svg) no-repeat left bottom;
   background-size: 40%;
   padding: 3rem;
   margin: 2rem auto 1rem;
